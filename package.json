@@ -1,0 +1,23 @@
+{
+  "name": "flash-sale-engine",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --watch src",
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.3.1",
+    "joi": "^17.9.2",
+    "mongoose": "^7.5.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "mongodb-memory-server": "^8.14.1",
+    "nodemon": "^3.0.2",
+    "supertest": "^6.3.3"
+  }
+}
